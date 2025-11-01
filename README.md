@@ -1,8 +1,8 @@
-**Customer Segmentation using RFM & Clustering**
+# **Customer Segmentation using RFM & Clustering**
 This project performs customer segmentation on the sales_data_sample.csv dataset. The goal is to identify distinct customer groups based on their purchasing behavior using RFM (Recency, Frequency, Monetary) analysis and three unsupervised clustering algorithms: K-Means, Hierarchical Clustering, and DBSCAN.
 The final analysis identifies a clear and actionable 2-cluster solution: Active/High-Value Customers and Lapsed/At-Risk Customers.
 
-🚀 **Project Workflow**
+## 🚀 **Project Workflow**
 The notebook follows a comprehensive data science workflow:
 Data Cleaning: Loads the dataset, filters for completed orders (Shipped, Resolved), and handles data types.
 Feature Engineering (RFM): Aggregates the data by CUSTOMERNAME to create three core marketing metrics:
